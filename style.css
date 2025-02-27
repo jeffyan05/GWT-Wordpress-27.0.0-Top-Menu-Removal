@@ -1,0 +1,71 @@
+/*
+ * Theme Name: GWT-Wordpress 27.0.0
+ * Description: Removal of GWT-Wordpress 27.0.0 Top Navigation Menu
+ * Author: Bryan Jeff Paluga
+ * Version: 1.0
+ *
+ * 
+ * On your Wordpress Menu Settings under Menu, change all your existing menu Display Location to Auxiliary Menu.
+ * On your Page Preview, click Customize to enable Customization Controls.
+ * Under Additional CSS, Copy and Paste the code below.
+ * Publish and enjoy! Feel free to work around the code.
+*/
+
+.page .entry-title{
+    display:none;
+}
+
+#sidebar-right{
+	padding-right: 20px; 
+	padding-left: 20px;
+}
+
+#sidebar-left{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#main-content{
+	width: 100%;
+	padding: 0px;
+}
+
+.column, .columns {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.page #main-content .row{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0px;
+	max-width: 100%;
+}
+
+#main-nav .row{
+	display:none !important;
+}
+
+.container-masthead{
+	margin-top: 0px;
+	padding-left: 80px;
+	padding-right: 50px;
+}
+
+#auxiliary div.row{
+	max-width: 100%;
+}
+
+#aux-main{
+	padding-left: 70px;
+	padding-right: 50px;
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.banner-pads{
+	padding: 0px 0 !important;
+}
+
+#panel-top .widget{
+	padding: 0rem;
+}
